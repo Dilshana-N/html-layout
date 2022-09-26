@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Layout
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+            header{
+                background-color: rgb(196, 234, 125);
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color:white;
+            }
+            
+            
+            nav{
+                float: left;
+                width: 30%;
+                height: 300px;
+                background: rgb(178, 230, 95);
+                padding: 20px;
+            }
+            nav ul{
+                list-style-type: none;
+                padding:0;
+            }
+            article{
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: rgb(198, 243, 50);
+                height: 300px;
+                
+            }
+            section::after{
+                content:"";
+                display: table;
+                clear: both;
+            }
+            footer{
+                background-color: rgb(206, 232, 138);
+                padding: 10px;
+                text-align:right;
+                font-size: 20px;
+                color:rgb(14, 11, 11) ;
+            }
+            @media (max-width: 600px) {
+              nav, article {
+              width: 100%;
+              height: auto;
+  }
+}
+body{
+    background-color: rgb(177, 177, 33);
+}
+h2{
+    text-align: center;
+}
+
+
+        </style>
+    </head>
+
+<body>
+    <h2>
+        FLOWERS
+    </h2>
+    <p>
+        flower, the characteristic reproductive structure of angiosperms. As popularly used, the term “flower” 
+        especially applies when part 
+        or all of the reproductive structure is distinctive in colour and form.
+    </p>
+    <p>
+        In their range of colour, size, form, 
+        and anatomical arrangement, flowers present a seemingly 
+        endless variety of combinations.
+    </p>
+    <header>
+        <h3>
+            YELLOW FLOWERS
+        </h3>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Zinnia</a></li>
+                <li><a href="#">Sunflower</a></li>
+                <li><a href="#">Eugenia</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h3>
+                Zinnia
+            </h3>
+            <p>
+                Zinnias are annuals, so they will grow for one season to produce flowers and seeds, but the original plant will not come back in subsequent years. They have bright, solitary, daisy-like flowerheads on a single, erect stem, which makes them great for use as a cut
+                ting flower or as food for butterflies.
+            </p>
+            <p>
+                Before you plant zinnias, make sure to understand several zinnia flower facts, such as: Zinnias love the warm temperature Zinnias originated from Central and South America, so they love warmth and light. When planting zinnias, make sure you provide enough natural light 
+                (with partial shade in hotter regions).
+            </p>
+</article>
+    </section>
+    <footer>
+        <p>
+            copyright reserved
+        </p>
+    </footer>
+</body>
+</html>
